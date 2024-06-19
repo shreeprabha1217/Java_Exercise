@@ -14,7 +14,7 @@ public class Main {
                 if(i==j){
                     sum1+=matrixA[i][j];
                 }
-                else if((i+j)==(rows-1)){
+                if((i+j)==(rows-1)){
                     sum2+=matrixA[i][j];
                 }
             }
