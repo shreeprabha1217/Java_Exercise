@@ -47,6 +47,11 @@ public class Main {
             k++;
             i++;
         }
+        while(j<=middle){
+            arr[k]=tempMergeArr[j];
+            j++;
+            k++;
+        }
     }
     
     public static void main(String[] args) {
